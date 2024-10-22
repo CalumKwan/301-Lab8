@@ -25,4 +25,28 @@ public class CustomListTest {
         assertEquals(list.getCount(),listSize + 1);
     }
 
+    @Test
+    void getView() {
+    }
+
+    @Test
+    void getCount() {
+    }
+
+    @Test
+    void addCity() {
+    }
+
+    @Test
+    void testGetCount() {
+    }
+
+    @Test
+    void testAddCity() {
+    }
+
+    @Test
+    void mockCityList() {
+    }
+
 }
