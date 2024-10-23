@@ -60,4 +60,15 @@ public class CustomListTest {
     void mockCityList() {
     }
 
+    @Test
+    public void hasCityTest() {
+        list = MockCityList();
+        City testCity = new City("Edmonton", "AB");
+        list.addCity(testCity);
+        assertTrue(list.hasCity(testCity));
+
+        City nonExistentCity = new City("Vancouver", "BC");
+        assertFalse(list.hasCity(nonExistentCity));
+    }
+
 }
