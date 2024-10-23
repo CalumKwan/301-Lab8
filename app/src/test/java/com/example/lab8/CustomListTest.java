@@ -17,6 +17,17 @@ public class CustomListTest {
      * check if our current size matches the initial size
      plus one
      */
+
+    public CustomList MockCityList(){
+        list = new CustomList(null,new ArrayList<>());
+        return list;
+    }
+    private CustomList list;
+    /**
+     * create a mocklist for my citylist
+     * @return
+     */
+
     @Test
     public void addCityTest(){
         list = MockCityList();
